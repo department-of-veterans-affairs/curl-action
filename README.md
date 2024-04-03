@@ -1,6 +1,6 @@
 # cURL for GitHub Action
 
-You can use this action to perform REST API requests, using the [axios](https://github.com/axios/axios) module.
+You can use this action to perform REST API requests, using the [axios](https://github.com/axios/axios) module. This action has been upgraded to run on node.js 20 and higher
 
 # Usage
 
