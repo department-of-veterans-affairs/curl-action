@@ -42,5 +42,5 @@ branding:
   icon: 'download'  
   color: 'gray-dark'
 runs:
-  using: 'node16'
+  using: 'node20'
   main: 'dist/index.js'
