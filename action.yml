@@ -1,4 +1,4 @@
-name: 'cURL AxiosJS'
+name: 'cURL AxiosJS updated'
 description: 'cURL action to perform REST API based on Axios. This action has been upgraded to run on node.js 20 and higher.'
 inputs:
   url: 
