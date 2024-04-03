@@ -1,4 +1,6 @@
 "use strict";
+const fs = require('fs');
+
 var __createBinding = (this && this.__createBinding) || (Object.create ? (function(o, m, k, k2) {
     if (k2 === undefined) k2 = k;
     Object.defineProperty(o, k2, { enumerable: true, get: function() { return m[k]; } });
@@ -29,7 +31,8 @@ var setOutput = function (res) {
     if (requestconf_1.INPUT_LOG_RESPONSE) {
         core.info("Response: " + util.buildOutput(res));
     }
-    core.setOutput("response", util.buildOutput(res));
+    const outputValue = util.buildOutput(res);
+    fs.appendFileSync(process.env.GITHUB_OUTPUT, `response=${outputValue}\n`);
 };
 exports.default = setOutput;
 //# sourceMappingURL=output.js.map
