@@ -1,6 +1,5 @@
 name: 'cURL AxiosJS updated'
-description: 'cURL action to perform REST API based on Axios. This action runs on node.js 20 and higher as well as includes a fix for setup-Output command depraction errors in workflows. 
-'
+description: 'Axios-based cURL action for REST APIs, running on Node.js 20+, with a fix for deprecated setOutput.'
 inputs:
   url: 
     description: 'The target url'
