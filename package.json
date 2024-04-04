@@ -28,7 +28,7 @@
     "axios-retry": "^3.2.4",
     "fs": "0.0.1-security",
     "js-yaml": "^4.1.0",
-    "retry-axios": "^2.6.0"
+    "retry-axios": "^3.0.0"
   },
   "devDependencies": {
     "@types/node": "^20.12.3",
