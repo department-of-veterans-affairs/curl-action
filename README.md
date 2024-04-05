@@ -14,7 +14,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: "Call API"
-        uses: department-of-veterans-affairs/curl-action@v1.0.0
+        uses: department-of-veterans-affairs/curl-action/action.yml@v1.0.0
         with:
           # The target URL
           # Required: true if custom-config is not set
@@ -107,7 +107,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: "Call API 1"
-        uses: department-of-veterans-affairs/curl-action@v1.0.0
+        uses: department-of-veterans-affairs/curl-action/action.yml@v1.0.0
         id: api
         with:
           url: https://reqres.in/api/users
@@ -116,7 +116,7 @@ jobs:
           body: '{ "name": "breeze", "job": "devops" }'
           log-response: true
       - name: "Call API 2"
-        uses: department-of-veterans-affairs/curl-action@v1.0.0
+        uses: department-of-veterans-affairs/curl-action/action.yml@v1.0.0
         id: api2
         with:
           url: https://reqres.in/api/users
