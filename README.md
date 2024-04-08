@@ -2,6 +2,8 @@
 
 You can use this action to perform REST API requests, using the [axios](https://github.com/axios/axios) module. This action runs on node.js 20 and higher as well as includes a fix for setup-Output command depraction errors in workflows.
 
+This action was forked from [indiesdev/curl](https://github.com/indiesdev/curl/)
+
 # Usage
 
 ```yaml
